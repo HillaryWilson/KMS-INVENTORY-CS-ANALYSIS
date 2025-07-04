@@ -51,7 +51,8 @@ GROUP BY Product_Category
 ORDER BY TotalSales DESC;
 ```
    → *Technology* led in sales across all years.
--***Insight***: Top category = most valuable for revenue. Management should invest more in this.
+
+***Insight***: Top category = most valuable for revenue. Management should invest more in this.
 
 
 2. **What are the Top 3 and Bottom 3 regions in terms of sales?**  
@@ -59,7 +60,8 @@ ORDER BY TotalSales DESC;
    → *Top:* West (3597549), Ontario (3063212), Prarie (2837304)
 
    → *Bottom:* Nunavut (116376), Northwest Territories (800847), Yukon (975867)
- - ***Insight***: Boost marketing and operations in bottom regions.
+ 
+  ***Insight***: Boost marketing and operations in bottom regions.
 
 
 3. **What were the total sales of appliances in Ontario?**  
