@@ -136,29 +136,23 @@ JOIN ORDER_STATUS r ON o.[Order_ID] = r.[Order_ID];
 
 ---
 
-##  Project Structure
+## 🧱 Project Structure
 
+```
 Kultra-Mega-Stores-Inventory-Case-Study/
 |
-
 ├── 📄 README.md ← This project summary and insights
-
 ├── 📁 SQL_Scripts/
-
 │ └── KMS_Case_Study_Queries.sql ← All SQL queries for Q1–Q11
-
 │
-
 ├── 📁 Data/
-
 │ ├── KMS_Sql_Case_Study.csv ← Main sales dataset
-
 │ └── Order_Status.csv ← Returned orders
-
+```
 
 ---
 
-## ✅ How to Use
+##  How to Use
 
 1. Open `SQL_Scripts/KMS_Case_Study_Queries.sql` in SSMS
 2. Run each query after connecting to the database with imported tables
@@ -166,7 +160,7 @@ Kultra-Mega-Stores-Inventory-Case-Study/
 
 ---
 
-## 💬 Author
+##  Author
 
 *WILSON, Hillary*  
 📧 willhillary20@gmail.com  
