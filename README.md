@@ -31,6 +31,7 @@ These files were imported into a SQL Server database and structured into two tab
 `[KMS-ORDERS]` – Main transaction data
 - *TOTAL ROWS: 8399*
 - *TOTAL COLUMNS: 21*
+
 `ORDER_STATUS` – Returned order data
 - *TOTAL COLUMNS: 572*
 ---
