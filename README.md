@@ -1,7 +1,7 @@
 # KMS-INVENTORY-CS-ANALYSIS
 This is an Sql-based analysis of Kultra Mega Stores (KMS), which specialises in office supplies and furniture. This is a Capstone project, organised by DSA, Incubator hub. 
 ---
-## 🧾 Project Overview
+##  Project Overview
 
 Kultra Mega Stores (KMS) is a Lagos-based retail company specializing in office supplies, furniture, and technology. The company operates across various customer segments, including individual consumers, small businesses, and corporate clients.
 
@@ -9,7 +9,7 @@ As a Business Intelligence Analyst, I was tasked with analyzing order data (2009
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 
 - **Microsoft SQL Server 2022** – Querying and analysis
 - **GitHub** – Project documentation and sharing
@@ -17,7 +17,7 @@ As a Business Intelligence Analyst, I was tasked with analyzing order data (2009
 
 ---
 
-## 🗃️ Dataset Description
+##  Dataset Description
 
 The project was based on two main CSV files:
 
@@ -35,10 +35,10 @@ These files were imported into a SQL Server database and structured into two tab
  *TOTAL COLUMNS: 572*
 ---
 
-## 🧠 Case Study Questions & Answers
+##  Case Study Questions & Answers
   **TOTAL ORDERS**: 8399
 
-### 🔹 **Case Scenario 1: Business Performance**
+###  **Case Scenario 1: Business Performance**
 
 
 1. **Which product category had the highest sales?**  
@@ -78,7 +78,7 @@ ORDER BY TotalSales DESC;
 
 ---
 
-### 🔹 **Case Scenario 2: Customer Behavior**
+###  **Case Scenario 2: Customer Behavior**
 
 6. **Who are the most valuable customers, and what do they typically purchase?**  
  
@@ -126,26 +126,33 @@ JOIN ORDER_STATUS r ON o.[Order_ID] = r.[Order_ID];
 
 ---
 
-## 📌 Key Recommendations
+##  Key Recommendations
 
-- 📈 **Double down on top categories** like Technology, which consistently drive revenue.
-- 👥 **Target low-value customers** with discounts, personalized offers, and engagement campaigns.
-- 🚚 **Review shipping strategies** to ensure low-priority orders use more economical methods.
-- 🌍 **Invest in underperforming regions** through localized marketing and product adaptation.
-- 🔄 **Track returned items per segment** to identify quality or satisfaction issues.
+-  **Double down on top categories** like Technology, which consistently drive revenue.
+-  **Target low-value customers** with discounts, personalized offers, and engagement campaigns.
+-  **Review shipping strategies** to ensure low-priority orders use more economical methods.
+-  **Invest in underperforming regions** through localized marketing and product adaptation.
+-  **Track returned items per segment** to identify quality or satisfaction issues.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 Kultra-Mega-Stores-Inventory-Case-Study/
-│
+|
+
 ├── 📄 README.md ← This project summary and insights
+
 ├── 📁 SQL_Scripts/
+
 │ └── KMS_Case_Study_Queries.sql ← All SQL queries for Q1–Q11
+
 │
+
 ├── 📁 Data/
+
 │ ├── KMS_Sql_Case_Study.csv ← Main sales dataset
+
 │ └── Order_Status.csv ← Returned orders
 
 
@@ -161,10 +168,9 @@ Kultra-Mega-Stores-Inventory-Case-Study/
 
 ## 💬 Author
 
-*Data Analyst: WILSON, Hillary*  
-*Email: willhillary20@gmail.com.com*  
-*LinkedIn: [www.linkedin.com/in/wilson-hillary-597748342
-
-]*
+*WILSON, Hillary*  
+📧 willhillary20@gmail.com  
+🔗 [LinKedIn Profile](www.linkedin.com/in/wilson-hillary-597748342)
+🔗 [GitHub Profile](https://github.com/HillaryWilson)
 
 ---
