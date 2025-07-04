@@ -28,11 +28,11 @@ The project was based on two main CSV files:
 
 These files were imported into a SQL Server database and structured into two tables:
 
-- `[KMS-ORDERS]` – Main transaction data
-  -*TOTAL ROWS: 8399*
-  -*TOTAL COLUMNS: 21*
-- `ORDER_STATUS` – Returned order data
-  -*TOTAL COLUMNS: 572*
+`[KMS-ORDERS]` – Main transaction data
+- *TOTAL ROWS: 8399*
+- *TOTAL COLUMNS: 21*
+`ORDER_STATUS` – Returned order data
+- *TOTAL COLUMNS: 572*
 ---
 
 ##  Case Study Questions & Answers
