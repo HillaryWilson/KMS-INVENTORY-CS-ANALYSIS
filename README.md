@@ -29,14 +29,14 @@ The project was based on two main CSV files:
 These files were imported into a SQL Server database and structured into two tables:
 
 - `[KMS-ORDERS]` – Main transaction data
-*TOTAL ROWS: 8399*
-*TOTAL COLUMNS: 21*
+  -*TOTAL ROWS: 8399*
+  -*TOTAL COLUMNS: 21*
 - `ORDER_STATUS` – Returned order data
- *TOTAL COLUMNS: 572*
+  -*TOTAL COLUMNS: 572*
 ---
 
 ##  Case Study Questions & Answers
-  **TOTAL ORDERS**: 8399
+ -**TOTAL ORDERS**: 8399
 
 ###  **Case Scenario 1: Business Performance**
 
@@ -51,7 +51,7 @@ GROUP BY Product_Category
 ORDER BY TotalSales DESC;
 ```
    → *Technology* led in sales across all years.
-***Insight***: Top category = most valuable for revenue. Management should invest more in this.
+-***Insight***: Top category = most valuable for revenue. Management should invest more in this.
 
 
 2. **What are the Top 3 and Bottom 3 regions in terms of sales?**  
@@ -59,7 +59,7 @@ ORDER BY TotalSales DESC;
    → *Top:* West (3597549), Ontario (3063212), Prarie (2837304)
 
    → *Bottom:* Nunavut (116376), Northwest Territories (800847), Yukon (975867)
-  ***Insight***: Boost marketing and operations in bottom regions.
+ - ***Insight***: Boost marketing and operations in bottom regions.
 
 
 3. **What were the total sales of appliances in Ontario?**  
@@ -82,18 +82,19 @@ ORDER BY TotalSales DESC;
 
 6. **Who are the most valuable customers, and what do they typically purchase?**  
  
-   → Top customers were mostly large-scale buyers of Furniture, Technology and Office Supplies. They include; Emily Phan (117124.4), Deborah Brumfield (97433.1), Roy Skaria(92542.2), Sylvia Foulston(88875.8), Grant Carroll (88417). this analysis Helps target repeat buyers with personalized offers.
+   → Top customers were mostly large-scale buyers of Furniture, Technology and Office Supplies.
 
-7. **Which small business customer had the highest sales?**  
+They include; Emily Phan (117124.4), Deborah Brumfield (97433.1), Roy Skaria(92542.2), Sylvia Foulston(88875.8), Grant Carroll (88417). this analysis Helps target repeat buyers with personalized offers.
+
+8. **Which small business customer had the highest sales?**  
 
    → *Dennis Kane* was the highest spender among Small Business clients with total sales of 75967.6.
 
-8. **Which corporate customer placed the most orders from 2009 to 2012?**
+9. **Which corporate customer placed the most orders from 2009 to 2012?**
 
    → *Adam Hart* had the highest order count in the Corporate segment, with 27 total orders.
 
-9. **Which consumer customer was the most profitable?**  
-Q9: MOST PROFITABLE CONSUMER CUSTOMER---
+10. **Which consumer customer was the most profitable?**  
 
 ```sql
 SELECT top 1 [CUSTOMER_NAME], SUM (PROFIT) AS TOTALPROFIT
